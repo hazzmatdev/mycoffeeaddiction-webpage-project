@@ -1,0 +1,26 @@
+nav div {
+    display: inline-block;
+    border: 3px solid rgba(0, 0, 0, 0.514);
+    border-radius: 50px;
+    width: 175px;
+    height: 50px;
+    margin: 3px;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-link{
+    color: black;
+}
+
+nav {
+    background-color: rgb(190, 132, 55);
+    border-radius: 5px;
+    width: 75%;
+    margin: auto;
+}
+
+
+a:link {
+    text-decoration: none;
+}
