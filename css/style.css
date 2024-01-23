@@ -1,15 +1,14 @@
-nav div {
-    display: inline-block;
+.nav-item {
+    background-color: rgb(151, 95, 22);
     border: 3px solid rgba(0, 0, 0, 0.514);
-    border-radius: 50px;
-    width: 175px;
+    border-radius: 15px;
+    width: 150px;
     height: 50px;
-    margin: 3px;
-    padding: 0;
+    margin: 5px;
     text-align: center;
 }
 
-nav div:hover {
+.nav-item:hover {
     box-shadow: 1px 2px rgba(0, 0, 0, 0.37);
 }
 
@@ -26,4 +25,12 @@ nav {
 
 a:link {
     text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+#about-text {
+    text-align: center;
 }
