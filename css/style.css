@@ -2,7 +2,6 @@ body {
     background-image: url(../images/pexels-ilo-frey-2316554.jpg);
     background-size: auto, 100%;
     background-repeat: no-repeat;
-    background-blend-mode: normal;
     background-color: #804d41;
 }
 
@@ -15,10 +14,6 @@ body {
     height: 50px;
     margin: 5px;
     text-align: center;
-}
-
-.nav-item:hover {
-    box-shadow: 0 2px rgba(0, 0, 0, 0.4);
 }
 
 .nav-link{
@@ -73,13 +68,13 @@ h1 {
 }
 
 #espresso-text {
-    top: 5%;
+    top: 7%;
     left: 15%;
     text-align: center;
 }
 
 #syphon-text {
-    bottom: 5%;
+    bottom: 7%;
     left: 15%;
     text-align: center;
 }
