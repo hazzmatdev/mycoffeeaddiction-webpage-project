@@ -18,7 +18,7 @@ body {
 }
 
 .nav-item:hover {
-    box-shadow: 0 2px rgba(0, 0, 0, 0.37);
+    box-shadow: 0 2px rgba(0, 0, 0, 0.4);
 }
 
 .nav-link{
@@ -35,12 +35,14 @@ a {
     text-decoration: none;
 }
 
-#preface {
-    text-align: center;
+.text-box {
     background-color: #c9856aaf;
-    border: 3px solid rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
 }
 
 .coffee-card {
@@ -55,7 +57,7 @@ a {
 
 .card-text {
     max-width: 70%;
-    max-height: 30%;
+    max-height: 40%;
     position: absolute;
     overflow: auto;
     color: rgb(255, 255, 255);
@@ -86,4 +88,15 @@ a {
     bottom: 35%;
     left: 15%;
     text-align: center;
+}
+
+.instruction-box {
+    background-color: #7281a1bb;
+    border-radius: 10px;
+}
+
+.instruction-text {
+    background-color: #7281a1bb;
+    font-size: 1.5rem;
+    border: 0;
 }
