@@ -85,13 +85,11 @@ h1 {
     text-align: center;
 }
 
-.instruction-box {
-    background-color: #7281a1bb;
-    border-radius: 10px;
-}
-
 .instruction-text {
     background-color: #7281a1bb;
+    color: white;
     font-size: 1.5rem;
     border: 0;
+    max-height: 300px;
+    overflow-y: auto;
 }
