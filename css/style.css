@@ -7,8 +7,8 @@ body {
 }
 
 .nav-item {
-    background-image: url(../images/syphoncrema.jpg);
-    background-color: rgb(151, 95, 22);
+    background-image: url(../images/coffee.jpg);
+    background-color: #c9856a;
     background-size: cover;
     border-radius: 10px;
     width: 150px;
@@ -83,7 +83,7 @@ a {
 }
 
 #uc-text {
-    bottom: 5%;
+    bottom: 35%;
     left: 15%;
     text-align: center;
 }
