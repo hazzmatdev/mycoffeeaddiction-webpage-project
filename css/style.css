@@ -1,13 +1,16 @@
 body {
     background-image: url(../images/pexels-ilo-frey-2316554.jpg);
-    background-size: 150%;
+    background-size: auto, 100%;
     background-repeat: no-repeat;
-    background-color: #3b2925;
+    background-blend-mode: normal;
+    background-color: #804d41;
 }
+
 .nav-item {
+    background-image: url(../images/syphoncrema.jpg);
     background-color: rgb(151, 95, 22);
-    border: 3px solid rgba(0, 0, 0, 0.514);
-    border-radius: 15px;
+    background-size: cover;
+    border-radius: 10px;
     width: 150px;
     height: 50px;
     margin: 5px;
@@ -15,33 +18,72 @@ body {
 }
 
 .nav-item:hover {
-    box-shadow: 1px 2px rgba(0, 0, 0, 0.37);
+    box-shadow: 0 2px rgba(0, 0, 0, 0.37);
 }
 
 .nav-link{
-    color: black;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 nav {
-    background-color: rgb(190, 132, 55);
-    border-radius: 5px;
-    max-width: 75%;
-    margin: auto;
+    background-color: #deac5ccc;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-a:link {
+a {
     text-decoration: none;
 }
 
 #preface {
     text-align: center;
-    max-width: 600px;
-    background-color: rgba(117, 53, 27, 0.85);
-    border: 3px solid rgba(0, 0, 0, 0.267);
+    background-color: #c9856aaf;
+    border: 3px solid rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     color: rgb(255, 255, 255);
 }
 
 .coffee-card {
-    background-color: aliceblue;
+    background-color: rgba(160, 160, 160, 0.863);
+    border-radius: 10px;
+    position: relative;
+}
+
+.coffee-card:hover {
+    background-color: rgba(150, 150, 150, .95);
+}
+
+.card-text {
+    max-width: 70%;
+    max-height: 30%;
+    position: absolute;
+    overflow: auto;
+    color: rgb(255, 255, 255);
+    background-color: #c9856a7a;
+    background-position: center;
+    border-radius: 10px;
+}
+
+#pourover-text {
+    bottom: 7%;
+    left: 7%;
+    text-align: center;
+}
+
+#espresso-text {
+    top: 5%;
+    left: 15%;
+    text-align: center;
+}
+
+#syphon-text {
+    bottom: 5%;
+    left: 15%;
+    text-align: center;
+}
+
+#uc-text {
+    bottom: 5%;
+    left: 15%;
+    text-align: center;
 }
